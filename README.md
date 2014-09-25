@@ -4,11 +4,15 @@ VMware-VCSA5.5-Automation
 ++++++ Notice == Script tested on ESXi 5.5 running vCenter 5.5 Update 2. No guarantees. Ensure you run it on test environment before executing in production. Author of this script assumes ZERO liability. ++++++
 
 Introduction
+============
+
 The Script allows you to deploy vCenter Server Appliance to a vCenter in a nested environment and also configures it with the vCenter.
 
 It uses Powershell+PowerCLI to deploy the vCenter Server Appliance and configures it with IP.
 
 Prerequisites
+============
+
 VCSA Appliance OVA File.
 Powershell version 4.0
 PowerCli version 5.8 Release 1
@@ -17,6 +21,8 @@ Network able to access vCenter
 a. vcsaconfig.xml b. vcsa-deploy.ps1
 
 Execution Method
+============
+
 Follow the below steps to properly execute the file.
 
 Ensure vcsaconfig.xml and vcsa-deploy.ps1 are in the same folder.
@@ -44,4 +50,3 @@ Contents vcsaConfig.xml
 
 </MasterConfig>
 
-Known Issues
