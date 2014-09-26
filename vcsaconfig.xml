@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0"?>
+<MasterConfig>
+<vcenterconfig>
+<vcenter>TOP LEVEL VCENTER WHERE VCSA WILL BE DEPLOYED INTO</vcenter>
+<vcusername>administrator@vsphere.local</vcusername>
+<vcpassword>VCENTER PASSWORD</vcpassword>
+</vcenterconfig>
+
+<Config>
+<vcsahostname>VCSA HOST NAME</vcsahostname>
+<rootpassword>NEW ROOT PASSWORD</rootpassword>
+<MgmtNetwork>VCSA NETWORK</MgmtNetwork>
+<vcsadns>DNS1,DNS2</vcsadns>
+<vcsagateway>GATEWAY</vcsagateway>
+<vcsaip>VCSA IP</vcsaip>
+<vcsanetmask>NETMASK</vcsanetmask>
+<clustername>TARGET CLUSTER</clustername>
+<vcsalocation>Location of VCSA.OVA COMPLETE PATH</vcsalocation>
+
+</MasterConfig>
+```
