@@ -25,11 +25,16 @@ Execution Method
 
 Follow the below steps to properly execute the file.
 
-Ensure vcsaconfig.xml and vcsa-deploy.ps1 are in the same folder.
-Populate vcsaconfig.xml with all the info as per your vcenter and vshield info. This allows you to configure your inputs before you execute the script.
-Execute the script once vcsaconfig.xml is configured.
-Contents vcsaConfig.xml
-<?xml version="1.0"?>
+1. Ensure vcsaconfig.xml and vcsa-deploy.ps1 are in the same folder.
+2. Populate vcsaconfig.xml with all the info as per your vcenter and vshield info. This allows you to configure your inputs before you execute the script.
+3. Execute the script once vcsaconfig.xml is configured.
+
+Contents
+========
+
+vcsaConfig.xml
+
+```<?xml version="1.0"?>
 <MasterConfig>
 <vcenterconfig>
 <vcenter>TOP LEVEL VCENTER WHERE VCSA WILL BE DEPLOYED INTO</vcenter>
@@ -49,4 +54,5 @@ Contents vcsaConfig.xml
 <vcsalocation>Location of VCSA.OVA COMPLETE PATH</vcsalocation>
 
 </MasterConfig>
+```
 
