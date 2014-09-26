@@ -1,4 +1,3 @@
-```xml
 <?xml version="1.0"?>
 <MasterConfig>
 <vcenterconfig>
@@ -19,4 +18,3 @@
 <vcsalocation>Location of VCSA.OVA COMPLETE PATH</vcsalocation>
 
 </MasterConfig>
-```
