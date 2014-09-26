@@ -34,7 +34,8 @@ Contents
 
 vcsaConfig.xml
 
-```<?xml version="1.0"?>
+```xml
+<?xml version="1.0"?>
 <MasterConfig>
 <vcenterconfig>
 <vcenter>TOP LEVEL VCENTER WHERE VCSA WILL BE DEPLOYED INTO</vcenter>
